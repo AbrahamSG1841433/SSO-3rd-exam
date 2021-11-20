@@ -1,5 +1,3 @@
-#! /bin/bash
-
 #In this part the operating system is identified
 #Operating system identification
 #Variables to Show the OS in Ubuntu
