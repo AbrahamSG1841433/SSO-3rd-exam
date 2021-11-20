@@ -2,9 +2,6 @@
 
 #In this part the operating system is identified
 #Operating system identification
-
-echo "OS detected"
-
 #Variables to Show the OS in Ubuntu
 OSDT=$(awk -F= '/^NAME/{print $2}' /etc/os-release)
 UBOS=$(hostnamectl | grep ubuntu)
